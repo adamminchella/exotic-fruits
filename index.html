@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -24,16 +25,17 @@
         </div>
         <div class="hero">
           <div class="hero__text">
-            <h1>My Favourite Fruits</h1>
+            <h1>Roger loves fruit</h1>
             <p>
-              Here are a selection of some of my favourite fruits from around
-              the globe. Sign up for unlimited content about world fruits!
+              Here lies a selection of some of Roger the rat's favourite fruits
+              from around the globe. Sign up for unlimited content and facts
+              about Roger's fruit pilgramige around the globe!
             </p>
             <button class="btn">Sign Up!</button>
           </div>
           <img
             class="hero__img"
-            src="./images/ginea-pineapple.jpg"
+            src="./images/rat-apple.jpg"
             alt="An image of a ginuea pig next to a pineapple"
           />
         </div>
@@ -41,43 +43,45 @@
     </header>
     <main>
       <div class="information">
-        <h2>Some friends and their favourite fruits.</h2>
+        <h2>Some friends and their fruity favourites!</h2>
         <div class="card-container">
-          <div class="card">
-            <img src="./images/animal-g57fd64013_1920.jpg" alt="" />
-            <p>Roger loves apples. Apples are his favourite fruit.</p>
+          <div data-aos="zoom-out" class="card">
+            <img src="./images/ginea-pineapple.jpg" alt="" />
+            <p>Lorraine loves pineapples. They are her favourite!</p>
           </div>
-          <div class="card">
-            <img src="./images/animal-g57fd64013_1920.jpg" alt="" />
-            <p>Roger loves apples. Apples are his favourite fruit.</p>
+          <div data-aos="zoom-out" class="card">
+            <img src="./images/snail-strawberry.jpg" alt="" />
+            <p>Kevin prefers strawberries, but is partial to pineapples.</p>
           </div>
-          <div class="card">
-            <img src="./images/animal-g57fd64013_1920.jpg" alt="" />
-            <p>Roger loves apples. Apples are his favourite fruit.</p>
+          <div data-aos="zoom-out" class="card">
+            <img src="./images/ladybird-berries.jpg" alt="" />
+            <p>
+              Mildred will only eat berries. Where will she get her vitamin D?
+            </p>
           </div>
-          <div class="card">
-            <img src="./images/animal-g57fd64013_1920.jpg" alt="" />
-            <p>Roger loves apples. Apples are his favourite fruit.</p>
+          <div data-aos="zoom-out" class="card">
+            <img src="./images/banana.jpg" alt="" />
+            <p>Gregory doesn't just like bananas, he is one! Holy cow!</p>
           </div>
         </div>
       </div>
       <div class="testimonial">
         <div class="testimonial__container">
-          <div class="testimonial__text">
+          <div data-aos="fade-right" class="testimonial__text">
             <p>
               My life goal is to eat at least one of every fruit in the world.
               My other friends like nasty, sugary chocolate and sweets but
               they're just silly. Sweets are so unhealthy, unlike fruit.
               Bananas, pineapples, pears; you name it. I just love fruit.
             </p>
-            <p>- Roger, fruit connoisseur</p>
+            <p>- Roger the Rat, fruit connoisseur</p>
           </div>
         </div>
       </div>
       <div class="signup">
         <div class="signup__text">
-          <h3>Call to action! It's time!</h3>
-          <p>Keep updated with Rogers quest to try every fruit!</p>
+          <h3>Show your appreciation for Roger!</h3>
+          <p>Keep updated with Rogers quest to find and consume every fruit!</p>
         </div>
         <div><button class="btn btn__signup">Sign Up!</button></div>
       </div>
@@ -88,4 +92,8 @@
       </p>
     </footer>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
